@@ -1,0 +1,55 @@
+<ion-view title="Home">
+<ion-content overflow-scroll="true" padding="true" class="has-header">
+<h1>Home</h1>
+<hr>
+<div ng-if="preloader" class="text-center"><img src="http://orig06.deviantart.net/df77/f/2013/094/8/d/loading_logofinal_by_zegerdon-d60eb1v.gif" alt=""></div>
+<h3>Quicklinks</h3>
+
+<a ui-sref="menu.overview" >
+    <div class="list card">
+        <div class="item item-divider">Overview</div>
+        <div class="item item-body">Overview of this project</div>
+    </div>
+</a>
+<a ui-sref="menu.recentEntries" >
+    <div class="list card">
+        <div class="item item-divider">Recent Entries</div>
+        <div class="item item-body">My Most recent Entries</div>
+    </div>
+</a>
+<a ui-sref="menu.recentWebsites" >
+    <div class="list card">
+        <div class="item item-divider">Recent Websites</div>
+        <div class="item item-body">The most recent Websites worked on</div>
+    </div>
+</a>
+<a ui-sref="menu.previousWebsites" >
+    <div class="list card">
+        <div class="item item-divider">Previous Websites</div>
+        <div class="item item-body">Previous Websites I have built or worked on</div>
+    </div>
+</a>
+<a ui-sref="menu.landingPages" >
+    <div class="list card">
+    <div class="item item-divider">Landing Pages</div>
+        <div class="item item-body">Landing Pages built</div>
+    </div>
+</a>
+
+<a ui-sref="menu.newsletters" >
+    <div class="list card">
+    <div class="item item-divider">Newsletters</div>
+        <div class="item item-body">Newsletters built</div>
+    </div>
+</a>
+
+<a ui-sref="menu.other" >
+    <div class="list card">
+    <div class="item item-divider">Other</div>
+        <div class="item item-body">Other projects not associated with the above</div>
+    </div>
+</a>
+
+<hr>
+</ion-content>
+</ion-view>

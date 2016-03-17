@@ -1,0 +1,17 @@
+ <div class="list card">
+            <div class="item item-divider">{{portfolioData.clientName}}</div>
+            <div class="item item-body">
+                <div style="line-height: 250px; border: 1px solid rgb(238, 238, 238); border-radius: 3px; text-align: center; background-color: rgb(255, 255, 255);">
+                   <img src="img/{{portfolioData.imgsrc}}" height="auto" width="100%">
+                </div>
+                <ion-list>
+                    <ion-item>Platform: {{portfolioData.platform}} </ion-item>
+                    <ion-item ng-if="portfolioData.url">URL: <a href="{{portfolioData.url}}" target="_blank">Link</a></ion-item>
+                    <ion-item>Date Added: {{portfolioData.date | date}}</ion-item>
+                    <ion-item ng-if="portfolioData.comments">Comment: {{portfolioData.comments}}</ion-item>
+                </ion-list>
+
+
+                <ion-list></ion-list>
+            </div>
+        </div>
